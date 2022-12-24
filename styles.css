@@ -68,7 +68,11 @@ p {
     height: 5px;
 }
 
-
 .indent {
     margin-left: 1em;
+}
+
+/* use the :not(example) pseudo-selector to select elements that do not match a CSS rule */
+.daily-value p:not(.no-divider) {    
+    border-bottom: 1px solid #888989;
 }
