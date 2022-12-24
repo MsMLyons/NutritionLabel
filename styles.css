@@ -22,3 +22,7 @@ h1 {
     text-align: center;
     margin: -4px 0; /* first value is top & bottom, second is left & right margins*/
 }
+
+p {
+    margin: 0;
+}
